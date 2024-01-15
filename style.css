@@ -2,24 +2,23 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #f4f4f4;
 }
 
-.container {
+header, #contact {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #fff;
     padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile h1,
-.contact h2 {
+h1, h2 {
     color: #333;
 }
 
-.profile p {
+p {
     color: #666;
 }
 
@@ -31,14 +30,23 @@ body {
 
 .contact-item img {
     width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 
 .contact-item a {
-    color: #007bff;
     text-decoration: none;
+    color: #007BFF;
 }
 
-.contact-item a:hover {
-    text-decoration: underline;
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
 }
